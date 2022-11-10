@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Category = () => {
-  return (
+ return (
     <button type="button">Check Status</button>
   );
 };
