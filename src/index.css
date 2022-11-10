@@ -1,11 +1,13 @@
 * {
   margin: 0;
 }
- nav {
+
+nav {
   display: flex;
   justify-content: space-around;
 }
- nav ul {
+
+nav ul {
   list-style: none;
   display: flex;
   gap: 15px;
