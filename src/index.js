@@ -19,8 +19,8 @@ ReactDOM.render(
           <li><Link to="/">Books</Link></li>
           <li><Link to="/CATEGORIES">CATEGORIES </Link></li>
         </ul>
-        
-</nav>
+    
+      </nav>
       <Switch>
         <Route exact path="/"><Books /></Route>
         <Route path="/CATEGORIES"><Category /></Route>
