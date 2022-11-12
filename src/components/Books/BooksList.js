@@ -1,15 +1,13 @@
 import React from 'react';
 
-const BooksList = () => {
-  const books = [];
+const BooksList = (props) => {
+  console.log(props.tite)
   return (
     <ul>
-      {books.map((book) => (
-        <li key={book.id}>
-          {book.title}
-          <button type="submit">Remove</button>
-        </li>
-      ))}
+      <li>{props.title}  </li>
+      <li>{props.author}  </li>
+      <button type="submit">Remove</button>
+       
     </ul>
   );
 };
