@@ -1,7 +1,6 @@
 import React from 'react';
 
-const AddBook = () => {
-  return (
+const AddBook = () => (
   <form>
     <h2>ADD NEW BOOK</h2>
     <div>
@@ -17,7 +16,6 @@ const AddBook = () => {
       <button type="submit">ADD BOOK</button>
     </div>
   </form>
-  )
-  };
+);
 
 export default AddBook;
